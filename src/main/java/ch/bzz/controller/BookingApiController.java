@@ -1,14 +1,14 @@
 package ch.bzz.controller;
 
-import ch.bzz.generated.api.AccountApi;
 import ch.bzz.generated.api.BookingApi;
-import ch.bzz.generated.api.ProjectApi;
-import ch.bzz.generated.model.*;
+import ch.bzz.generated.model.Booking;
+import ch.bzz.generated.model.UpdateBookingsRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+@RestController
 public class BookingApiController implements BookingApi {
 
     @Override
